@@ -8,5 +8,5 @@ export const LinkedInIncon  = styled.div``;
 export const SearchInput = styled.div``;
 export const HomeIcon  = styled.div``;
 export const NotificationIcon  = styled.div``;
-export const ProfileCircle  = styled.div``;
+export const ProfileCircle  = styled.img``;
 export const CaretDownIcon = styled.div``;

@@ -1,6 +1,13 @@
-## Available Scripts
+# ui-clone-linkedin-shimmer-effect
+Aplicação em React reproduzindo a interface do Linkedin!
 
-### `yarn start`
+## Techs
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React.js
+- Styled Components
+- TypeScript
+
+## Usage
+
+1. Run `npm install` or `yarn install`.<br />
+2. Run `yarn start` and access `http://localhost:3000`.<br />
