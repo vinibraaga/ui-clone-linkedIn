@@ -3,7 +3,7 @@ import React from 'react';
 import { 
     Container, 
     Wrapper, 
-    LinkedInIncon, 
+    LinkedInIcon, 
     SearchInput, HomeIcon, 
     NotificationIcon, 
     ProfileCircle, 
@@ -15,7 +15,7 @@ const DesktopHeader: React.FC = () => {
       <Container>
           <Wrapper>
               <div className="left">
-                  <LinkedInIncon />
+                  <LinkedInIcon />
                   <SearchInput placeholder='Pesquisar'/>
               </div>
 
