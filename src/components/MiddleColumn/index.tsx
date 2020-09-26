@@ -4,15 +4,29 @@ import FeedShare from './FeedShare';
 import FeedPost from './FeedPost';
 
 import { Container } from './styles';
+import LoadingFeedShere from '../Shimmer/LoadingFeedShere';
+import LoadingFeedPost from '../Shimmer/LoadingFeedPost';
 
-const MiddleColumn: React.FC = () => {
+const MiddleColumn: React.FC<LoadingProps> = ({isLoading}) => {
   return (
     <Container className="middle-column">
-      <FeedShare />
-      <FeedPost />
-      <FeedPost />
-      <FeedPost />
-      <FeedPost />
+      {isLoading ? (
+        <>
+          <LoadingFeedShere />
+          <LoadingFeedPost />
+          <LoadingFeedPost />
+          <LoadingFeedPost />
+          <LoadingFeedPost />
+        </>
+      ) : (
+        <>
+          <FeedShare/>
+          <FeedPost />
+          <FeedPost />
+          <FeedPost />
+          <FeedPost />
+        </>
+      )}
     </Container>
   );
 };
